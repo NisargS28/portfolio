@@ -19,7 +19,7 @@ const Logo = () => {
             }}
             href="/"
             >
-            TEZ
+            NS
             </MotionLink>
         </div>
     )
