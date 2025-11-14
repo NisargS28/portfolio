@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {/* <CursorEffect /> */}
         {children}
-        <div className='flex h-full md:flex-col mt-32  xs:gap-5 lg:gap-5 sm:mt-10 font-mont px-24 lg:px-16 md:px-12 sm:px-8 xs:px-6 mb-20 md:items-center xs:mt-[60px]'>
+        {/* <div className='flex h-full md:flex-col mt-32  xs:gap-5 lg:gap-5 sm:mt-10 font-mont px-24 lg:px-16 md:px-12 sm:px-8 xs:px-6 mb-20 md:items-center xs:mt-[60px]'>
           <div className='flex-col xs:gap-2 gap-5 md:items-center w-full md:justify-center'>
             <h1 className='lg:text-4xl text-dark dark:text-light font-bold xs:text-center capitalize text-5xl mb-5 sm:mb-5 md:text-center sm:text-lg xs:text-[22px]'>how about some Music? 😉</h1>
             <h3 className='text-left xs:text-center md:text-center sm:text-sm text-yellow-600 font-semibold text-xl'>Let the music play while you explore ! 
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
           <div className='w-1/2 sm:w-full'>
             <iframe src="https://open.spotify.com/embed/playlist/1pWsZ0u92q0IjBIyGwHZOc?utm_source=generator&theme=0" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </div>
-        </div>
+        </div> */}
         <Footer />
         <Chatbot />
       </body>

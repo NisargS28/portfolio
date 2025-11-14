@@ -16,8 +16,8 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: 'Tejas Patel | About',
-  description: 'Contains Biography, Experience and Education of Tejas Patel',
+  title: 'Nisarg Solanki | About',
+  description: 'Contains Biography, Experience and Education of Nisarg Solanki',
 }
 const page = () => {
   return (
@@ -25,7 +25,7 @@ const page = () => {
     <TransitionEffect />
       <Head>
         <title>TechTez | About Page</title>
-        <meta name="description" content="Tejas Patel- Web Developer" />
+        <meta name="description" content="Nisarg Solanki- Web Developer" />
       </Head>
       <main className={`dark:text-light w-full flex-col items-center justify-center ${montserrat.className}`}>
         <Layout className="pt-16 min-h-screen">
@@ -34,7 +34,7 @@ const page = () => {
             <div className='col-span-3 flex flex-col items-start justify-start mt-5 xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='text-lg font-bold uppercase dark:text-light/75 text-dark/75 mb-4'>Biography</h2>
               <p>
-                I'm Tejas Patel, a passionate web developer with a knack for turning ideas into stunning online realities. Over the years, I've honed my skills and embraced the ever-evolving landscape of technology.
+                I'm Nisarg Solanki, a passionate web developer with a knack for turning ideas into stunning online realities. Over the years, I've honed my skills and embraced the ever-evolving landscape of technology.
               </p>
               <p className='my-4'>
                 Throughout my career, I've had the privilege of collaborating on a diverse array of web projects, each presenting unique challenges. From responsive designs that adapt to any device to optimizing site performance, I'm committed to crafting user-friendly and elegant web solutions.
