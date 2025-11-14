@@ -106,16 +106,16 @@ const Navbar = () => {
                     </nav>
 
                     <nav className='flex items-center justify-end flex-1 gap-3 sm:gap-3  '>
-                        <MotionLink href="https://twitter.com/tejaspatel1532" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank'>
+                        <MotionLink href="https://x.com/NisargS28" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank'>
                             <TwitterIcon />
                         </MotionLink>
-                        <MotionLink href="https://github.com/patel-tejas" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank' className='bg-light dark:bg-dark rounded-full '>
+                        <MotionLink href="https://github.com/NisargS28" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank' className='bg-light dark:bg-dark rounded-full '>
                             <GithubIcon />
                         </MotionLink>
-                        <MotionLink href="https://www.linkedin.com/in/pateltejas2005/" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank'>
+                        <MotionLink href="https://www.linkedin.com/in/nisarg-solanki-0970aa290" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank'>
                             <LinkedInIcon />
                         </MotionLink>
-                        <MotionLink href="https://www.instagram.com/_me.tez_/" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank' className='bg-dark  rounded-full'>
+                        <MotionLink href="https://www.instagram.com/nisargsolanki_28/" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} target='_blank' className='bg-dark  rounded-full'>
                             <InstagramIcon />
                         </MotionLink>
 

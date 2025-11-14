@@ -59,7 +59,7 @@ export default function Chatbot() {
                             </div>
                             <p className='text-left flex gap-1'>
                                 <FaRobot className='text-3xl px-1 py-1 bg-blue-400 rounded-full text-white ' />
-                                <span className='flex-1 mx-2 bg-gray-200 px-3 py-1 rounded-lg'>Hello! I'm Tez, your friendly AI guide. A virtual version of Tejas 😅. I can answer your questions about his skills, projects, and interests. Feel free to ask away!</span>
+                                <span className='flex-1 mx-2 bg-gray-200 px-3 py-1 rounded-lg'>Hello! I'm Nish, your friendly AI guide. A virtual version of Nisarg 😅. I can answer your questions about his skills, projects, and interests. Feel free to ask away!</span>
                             </p>
                             {history.map((chat, index) => (
                                 <div key={index}>

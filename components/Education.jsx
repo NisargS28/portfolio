@@ -46,22 +46,22 @@ const Education = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-6 '>
                     <Details
-                        type="High School Education"
-                        time="2012 - 2021"
-                        place="Kalorex Future School"
+                        type="School Education"
+                        time="2008 - 2021"
+                        place="A-One School"
                         info="Underwent a comprehensive high school education that formed the basis for both my academic and personal development. The diverse curriculum and supportive learning environment offered me a well-rounded education, covering various subjects and extracurricular activities."
                     />
 
                     <Details
                         type="Diploma in Information Technology"
                         time="2021-2024"
-                        place="R.C Technical Institute"
-                        info="Currently enrolled in the Diploma in Information Technology program spanning from 2021 to 2024. This course is equipping me with comprehensive knowledge and practical skills in the dynamic field of Information Technology, preparing me for a successful career in the rapidly evolving tech landscape."
+                        place="Sal Education"
+                        info="Pursed Diploma in Information Technology program spanning from 2021 to 2024. This course is equipping me with comprehensive knowledge and practical skills in the dynamic field of Information Technology, preparing me for a successful career in the rapidly evolving tech landscape."
                     />
                     <Details
                         type="Bachelor of Technology in Computer Science & Engineering (B.Tech. CSE)"
                         time="2024-2027"
-                        place="Pandit Deendayal Energy University (PDPU)"
+                        place="Pandit Deendayal Energy University (PDEU)"
                         info="I am currently pursuing my B.Tech in Computer Science & Engineering at Pandit Deendayal Energy University, with a focus on building a solid foundation in the latest technologies and innovations within the tech industry. This program is providing me with in-depth knowledge of computer systems, programming, data structures, and emerging fields like AI and ML, preparing me to thrive in a constantly evolving technological environment. I’m excited to continue growing my expertise in software development, algorithms, and other key areas that are shaping the future of the tech landscape."
                     />
 

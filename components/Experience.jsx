@@ -47,13 +47,20 @@ const Experience = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-6 '>
                     <Details
                         position="SDE Intern"
-                        company="Yudiz Solutions"
-                        time="2023"
-                        companyLink='https://www.yudiz.com/'
-                        address="BSquare 2, Ahmedabad, IND"
+                        company="Webdesk Solutions"
+                        time="2022"
+                        companyLink='https://www.webdesksolution.in/'
+                        address="Ahmedabad, IND"
                         work="Worked with a team responsible for creating a web-app transorming form applications. Added auto-fill features and integrated backend and frontend while developing the project on NextJs"
                     />
-
+                    <Details
+                        position="Cyber Intern"
+                        company="Heritage CyberWorld LLP"
+                        time="2023"
+                        companyLink='https://heritagecyberworld.com/'
+                        address="Ahmedabad, IND"
+                        work="Assisted in identifying vulnerabilities in web applications and networks through penetration testing and vulnerability assessments. Gained hands-on experience with various cybersecurity tools and techniques."
+                    />
 
                     
                 </ul>

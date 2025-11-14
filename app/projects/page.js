@@ -14,6 +14,7 @@ import portfolio from "../../public/portfolio.png"
 import ArticlesPage from '../../components/ArticlesPage'
 import TransitionEffect from '../../components/TransitionEffect'
 import urlshortener from "../../public/urlshortener.png"
+import BackToTop from '../../components/BackToTop'
 export const metadata = {
   title: 'Tejas Patel | Projects',
   description: 'This page contains all the projects created by Tejas Patel.',
@@ -166,7 +167,7 @@ const page = () => {
           </div>
         </Layout>
       </main>
-
+      <BackToTop />
       <ArticlesPage />
     </>
   )

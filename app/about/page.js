@@ -2,13 +2,18 @@ import AnimatedText from '../../components/AnimatedText'
 import Layout from '../../components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import React from 'react'
+import React, { Profiler } from 'react'
 import pfp from "../../public/pfp2.png"
 import { Montserrat } from 'next/font/google'
 import AnimatedNumbers from './AnimatedNumbers'
 import Experience from '../../components/Experience'
 import Education from '../../components/Education'
 import TransitionEffect from '../../components/TransitionEffect'
+import LearningPhilosophy from '../../components/LearningPhilosophy'
+import CollaborativeExperiences from '../../components/CollaborativeExperiences'
+import GlobalAwareness from '../../components/GlobalAwareness'
+import SelfAssessment from '../../components/SelfAssessment'
+import BackToTop from '../../components/BackToTop'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -24,7 +29,7 @@ const page = () => {
     <>
     <TransitionEffect />
       <Head>
-        <title>TechTez | About Page</title>
+        <title>About Page</title>
         <meta name="description" content="Nisarg Solanki- Web Developer" />
       </Head>
       <main className={`dark:text-light w-full flex-col items-center justify-center ${montserrat.className}`}>
@@ -46,7 +51,7 @@ const page = () => {
 
             <div className='col-span-3 h-max rounded-2xl border border-solid border-dark bg-light p-8 relative border-r-[6px] border-b-[6px] dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
             <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl' />
-              <Image src={pfp} alt='pfp' className='w-full h-auto rounded-2xl' />
+              <Image src='/Profile_a.jpg' alt='pfp' width={500} height={500} className='w-full h-auto rounded-2xl' />
             </div>
 
             <div className='col-span-2 flex flex-col items-end justify-evenly xl:col-span-8 xl:flex-row xl:items-center md:order-3 '>
@@ -74,8 +79,12 @@ const page = () => {
 
           <Experience />
           <Education />
+          <LearningPhilosophy />
+          <CollaborativeExperiences />
+          <GlobalAwareness />
+          <SelfAssessment />
         </Layout>
-        
+        <BackToTop />
       </main>
     </>
   )

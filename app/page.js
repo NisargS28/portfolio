@@ -10,12 +10,19 @@ import Link from 'next/link'
 import { LinkArrow } from '../components/Icons'
 import TransitionEffect from '../components/TransitionEffect'
 import Expertise from '../components/Expertise'
+import LearningPhilosophy from '../components/LearningPhilosophy'
+import FutureAspirations from '../components/FutureAspirations'
+import SelfAssessment from '../components/SelfAssessment'
+import Testimonials from '../components/Testimonials'
+import CollaborativeExperiences from '../components/CollaborativeExperiences'
+import GlobalAwareness from '../components/GlobalAwareness'
 
 import img1 from "../public/half-circle.png"
 // import img2 from "@/public/half-circle-right-icon.png"
 import img3 from "../public/triangle-icon.png"
 import Form from '../components/Form'
 import MobileTechnologies from '../components/Mobile_Technologies'
+import BackToTop from '../components/BackToTop'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 export default function Home() {
@@ -42,7 +49,7 @@ export default function Home() {
                 <p className='w-full text-[18px] md:text-sm sm:text-xs font-light'>As a skilled software engineer working towards development of web-apps through the use of modern framework- NextJS. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
                 </p>
                 <div className='flex gap-5 mt-10 lg:self-center sm:gap-4 sm:mt-6'>
-                  <Link href="/Nisarg Solanki Resume.pdf" target='_blank' className='flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-dark hover:border-dark duration-200 dark:hover:bg-dark dark:border-light dark:bg-light dark:text-dark dark:hover:text-light md:p-2 md:px-4 md:text-base sm:text-sm rounded-lg'>
+                  <Link href="/Nisarg Solanki_CV.pdf" target='_blank' className='flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-dark hover:border-dark duration-200 dark:hover:bg-dark dark:border-light dark:bg-light dark:text-dark dark:hover:text-light md:p-2 md:px-4 md:text-base sm:text-sm rounded-lg'>
                     Resume <LinkArrow className="w-6 ml-2" />
                   </Link>
                   <Link href="mailto:nisargscodes28@gmail.com" className='flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-dark hover:border-dark duration-200 dark:hover:bg-dark dark:border-light dark:bg-light dark:text-dark dark:hover:text-light md:p-2 md:px-4 md:text-base sm:text-sm rounded-lg'>Mail</Link>
@@ -56,6 +63,12 @@ export default function Home() {
           </div>
 
           <Expertise />
+          {/* <LearningPhilosophy />
+          <CollaborativeExperiences />
+          <GlobalAwareness /> */}
+          <Testimonials />
+          {/* <SelfAssessment />
+          <FutureAspirations /> */}
           <MobileTechnologies className="hidden sm:block " />
           <div>
             <Image alt='Design' src={img1} className=' animate-mover' />
@@ -63,6 +76,7 @@ export default function Home() {
             <Form className="px-0 mb-0 pb-10 xs:pb-0 !hidden sm:!block sm:!min-h-max" />
           </div>
         </Layout>
+        <BackToTop />
         {/* <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="techtez" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FD0" data-position="Right" data-x_margin="18" data-y_margin="18" defer ></script> */}
         <SpeedInsights />
         <Analytics />

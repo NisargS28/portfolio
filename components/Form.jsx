@@ -101,15 +101,15 @@ const Form = ({ className }) => {
 
                     <div className='flex flex-col gap-4 mt-10 items-center justify-center text-[18px] sm:text-[14px]'>
 
-                        <Link href="https://www.linkedin.com/in/pateltejas2005/" target='_blank' className='w-[60%] md:w-[80%] sm:w-full py-2 rounded-lg text-white bg-blue-400 flex items-center justify-center gap-2 hover:scale-105 duration-300 hover:shadow-2xl'>
+                        <Link href="www.linkedin.com/in/nisarg-solanki-0970aa290" target='_blank' className='w-[60%] md:w-[80%] sm:w-full py-2 rounded-lg text-white bg-blue-400 flex items-center justify-center gap-2 hover:scale-105 duration-300 hover:shadow-2xl'>
                             <span > Connect on LinkedIn </span>
                             <span ><GrLinkedinOption /></span>
                         </Link>
-                        <Link href="https://twitter.com/tejaspatel1532" target='_blank' className='w-[60%] md:w-[80%] sm:w-full py-2 rounded-lg text-white bg-dark/80 flex items-center justify-center gap-2 hover:scale-105 duration-300 hover:shadow-2xl dark:border border-white dark:bg-dark/20'>
+                        <Link href="https://x.com/NisargS28" target='_blank' className='w-[60%] md:w-[80%] sm:w-full py-2 rounded-lg text-white bg-dark/80 flex items-center justify-center gap-2 hover:scale-105 duration-300 hover:shadow-2xl dark:border border-white dark:bg-dark/20'>
                             <span> Connect on Twitter</span>
                             <span><RiTwitterXFill /></span>
                         </Link>
-                        <Link href="https://www.instagram.com/_me.tez_/" target='_blank' className='w-[60%] md:w-[80%] sm:w-full py-2 rounded-lg text-white bg-gradient-to-r from-purple-400 to-pink-600 flex items-center justify-center gap-2 hover:scale-105 duration-300 hover:shadow-2xl'>
+                        <Link href="https://www.instagram.com/nisargsolanki_28/" target='_blank' className='w-[60%] md:w-[80%] sm:w-full py-2 rounded-lg text-white bg-gradient-to-r from-purple-400 to-pink-600 flex items-center justify-center gap-2 hover:scale-105 duration-300 hover:shadow-2xl'>
                             <span> Connect on Instagram </span>
                             <span className=''><BiLogoInstagram /></span>
                         </Link>
