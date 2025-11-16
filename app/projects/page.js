@@ -124,7 +124,8 @@ const page = () => {
                 github="https://github.com/patel-tejas/Prime-One-Cleaning"
               />
             </div>
-            <div className='col-span-6 sm:col-span-12'>
+            
+            {/* <div className='col-span-6 sm:col-span-12'>
               <Project
                 title="Old Portfolio"
                 link="https://tejaspatel-portfolio.netlify.app/"
@@ -132,7 +133,7 @@ const page = () => {
                 img={portfolio}
                 github="https://github.com/patel-tejas/My-Portfolio"
               />
-            </div>
+            </div> */}
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
